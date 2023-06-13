@@ -76,20 +76,20 @@ $(document).ready(function(){
     
 });
 
-function accionParaCuandoEllaDigaQueSi(){
-    alert('Lo sabia! Espero su mensaje en mi linkedin :D');
-}
+// function accionParaCuandoEllaDigaQueSi(){
+//     alert('Lo sabia! Espero su mensaje en mi linkedin :D');
+// }
 
-function mueveElBoton(){
-    width = window.innerWidth;
-    height = window.innerHeight;
+// function mueveElBoton(){
+//     width = window.innerWidth;
+//     height = window.innerHeight;
 
-    newWidth = (Math.random() * width);
-            newHeight = (Math.random() * height.margin)
+//     newWidth = (Math.random() * width);
+//             newHeight = (Math.random() * height.margin)
 
-    document.getElementById('btnNo').style.position = "absolute";
-    document.getElementById('btnNo').style.left = newWidth + "px";
-    document.getElementById('btnNo').style.top = newHeight + "px";
+//     document.getElementById('btnNo').style.position = "absolute";
+//     document.getElementById('btnNo').style.left = newWidth + "px";
+//     document.getElementById('btnNo').style.top = newHeight + "px";
     
 
-}
+// }
