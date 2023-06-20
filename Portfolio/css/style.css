@@ -445,10 +445,11 @@ border-radius: 14px;
 }
 
 .proSubTitle{
-    text-transform: capitalize;
     font-size: 13px;
     font-weight: 600;
 }
+
+
 
 .proCard:hover .proContent{
     right: 0;
