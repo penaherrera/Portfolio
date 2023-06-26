@@ -252,15 +252,22 @@
     <section class="game" id="game">
         <div class="max-width">
             <h2 class="title">Juego</h2>
-            <!-- <div class="jueguito">
-                <div class="game_text">
-                    <h1>Trabajamos juntos?</h3>
+            <div class="game-container">
+                <div class="wrapper">
+                    <div class="game-details">
+                        <span class="score">Score: 0</span>
+                        <span class="high-score">High Score: 0</span>
+                    </div>
+
+                    <div class="play-board"></div>
+                        <div class="controls">
+                            <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+                            <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+                            <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+                            <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+                        </div>
                 </div>
-                <div class="btn_game">
-                    <input type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="btnSi" value="Si" class="btn_game" />
-                    <input type="button" id="btnNo" onmouseover="mueveElBoton()" value="No" class="btn_game"/>
-                </div>
-            </div> -->
+            </div>
         </div>
     </section>
 
@@ -345,5 +352,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/game.js"></script>
 </body>
 </html>
